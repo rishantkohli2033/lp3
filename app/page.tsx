@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -39,10 +40,11 @@ export default function Home() {
             <h2 className="text-xl text-black font-bold">5. Receive your $750 Amazon gift card</h2>
           </div>
         </div>
-
+        <Link href={'https://glitchy.go2cloud.org/aff_c?offer_id=144&aff_id=2431'}>
         <button className="mt-6 bg-yellow-500 text-black py-3 px-6 rounded-full text-xl font-semibold hover:bg-yellow-600">
           Redeem Now
         </button>
+        </Link>
       </main>
     </div>
   );
